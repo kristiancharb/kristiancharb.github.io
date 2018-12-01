@@ -44,13 +44,16 @@
             <a class="nav-link js-scroll-trigger" href="#education">Education</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+            <a class="nav-link js-scroll-trigger" href="#communication">Technical Communication</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
@@ -116,6 +119,43 @@
 
       <hr class="m-0">
 
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div class="my-auto">
+          <h2 class="mb-5">Skills</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0"> Programming Languages </h3>
+              <p class="lead">
+                <strong> Proficient: </strong> Java · JavaScript · Python <br>
+                <strong> Some Experience: </strong> C · PHP · Swift · Go
+              </p>
+              </div>
+          </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0"> Frameworks and Other Tools </h3>
+            <p class="lead">
+              HTML · CSS · React · MySQL · Git · Bash
+            </p>
+            </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0"> Spoken Languages </h3>
+            <p class="lead">
+              <strong> Native: </strong> English <br>
+              <strong> Advanced: </strong> Czech · German
+            </p>
+            </div>
+        </div>
+
+      </section>
+
+      <hr class="m-0">
+
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
         <div class="my-auto">
           <h2 class="mb-5">Experience</h2>
@@ -175,90 +215,131 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
         <div class="my-auto">
           <h2 class="mb-5">Projects</h2>
-            <a href="#" target="_blank">
-              Congressional Redistricting App (CSE 308): </a>
-            <p>
-              This app allows users to run a redistricting algorithm on certain states in the US.
-              The app aims to minimize gerrymandering while redistricting.
-              We used Java with Spring Boot and a MySQL database on the backend and plain HTML and JavaScript with the
-              Leaflet map library on the front end. (This project is still in progress so the link is coming soon)
-            </p>
 
-            <a href="https://github.com/kristiancharb/ECommerce-Web-App" target="_blank">
-              E-Commerce Web App (CSE 305): </a>
-            <p>
-              This app is a standard e-commerce app (similar to eBay) that where users are registered as either a buyer or seller.
-              A seller can put up item listings and view their sold item history while a buyer can buy items, review items,
-              and view their order history. We used Java and a MySQL database on the backend and JSP on the frontend.
-            </p>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0"> <a href="#" target="_blank">
+                Congressional Redistricting App: </a> </h3>
+              <p>
+                <strong> Co-Creators:  Miki Pokryvailo, Tauhid Choudhury, Yormax Castro </strong><br>
+                This app allows users to run a redistricting algorithm on certain states in the US.
+                The app aims to minimize gerrymandering while redistricting.
+                We used Java with Spring Boot and a MySQL database on the backend and plain HTML and JavaScript with the
+                Leaflet map library on the front end. (This project is still in progress so the link is coming soon)
+              </p>
+              </div>
+            <div class="resume-date text-md-right">
+                <img class="img-fluid mx-auto mb-2" style="max-width: 93%;" src="img/gerry.jpg" alt="">
+            </div>
+          </div>
 
-            <a href="https://github.com/kristiancharb/Course-Site-Generator" target="_blank">
-              Course Site Generator (CSE 308): </a>
-            <p>
-              This desktop application allows users to customize academic course web sites with calendar,
-              office hour, homework and project pages. The app exports an HTML template along with JavaScript
-              files that populate each template with user data. It was built using JavaFX.
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0"> <a href="#" target="_blank">
+                Stock Market Prediction: </a> </h3>
+              <p>
+                <strong> Co-Creators:  Usman Ansari </strong><br>
+                In this project we predicted the SPY closing price using
+                various machine learning algorithms. First we cleaned the data and removed outliers.
+                Then we used two different regression models (Random Forest and Linear Regression)
+                to predict the SPY Closing Price using the signal field provided in our data.
+                Finally we used an LSTM (Long Short Term Memory) network to predict
+                the SPY Closing Price in the future. We used Python with Pandas and scikit-learn.
+                (This project is still in progress so the link is coming soon)
+              </p>
+              </div>
+            <div class="resume-date text-md-right">
+                <img class="img-fluid mx-auto mb-2" style="max-width: 100%;" src="img/rfr.png" alt="">
+            </div>
+          </div>
 
-            </p>
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+              <div class="resume-content mr-auto">
+                <h3 class="mb-0"> <a href="https://github.com/kristiancharb/ECommerce-Web-App" target="_blank">
+                  E-Commerce Web App: </a> </h3>
+                <p>
+                  <strong> Co-Creators:  Usman Ansari, Patrick Boucicault </strong><br>
+                  This app is a standard e-commerce app (similar to eBay) that where users are registered as either a buyer or seller.
+                  A seller can put up item listings and view their sold item history while a buyer can buy items, review items,
+                  and view their order history. We used Java and a MySQL database on the backend and JSP on the frontend.
+                </p>
+                </div>
+              <div class="resume-date text-md-right">
+                  <img class="img-fluid mx-auto mb-2" style="max-width: 97%;" src="img/shop.jpg" alt="">
+              </div>
+          </div>
 
-
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0"> <a href="https://github.com/kristiancharb/Course-Site-Generator" target="_blank">
+                Course Site Generator: </a> </h3>
+              <p>
+                This desktop application allows users to customize academic course web sites with calendar,
+                office hour, homework and project pages. The app exports an HTML template along with JavaScript
+                files that populate each template with user data. It was built using JavaFX.
+              </p>
+              </div>
+            <div class="resume-date text-md-right">
+                <img class="img-fluid mx-auto mb-2" style="max-width: 85%;" src="img/csg.png" alt="">
+            </div>
         </div>
+      </div>
+
       </section>
+
 
       <hr class="m-0">
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="communication">
         <div class="my-auto">
-          <h2 class="mb-5">Skills</h2>
+          <h2 class="mb-5">Technical Communication (CSE 300)</h2>
+          <p class="lead">The following are technical writing samples written as courswork for CSE 300 at Stony Brook University.</p>
+          <br>
 
-          <div class="subheading mb-3">Programming Languages</div>
-            <strong> Proficient: </strong> Java · JavaScript · Python <br>
-            <strong> Limited Experience: </strong> C · PHP · Swift · Go
-            <br><br>
-          <div class="subheading mb-3">Frameworks and Other Tools</div>
-             HTML · CSS · React · MySQL · MongoDB · Git · Bash
-             <br><br>
-          <div class="subheading mb-3">Spoken Languages</div>
-          <strong> Native: </strong> English <br>
-          <strong> Advanced: </strong> Czech · German
-        </div>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0"> <a href="https://drive.google.com/file/d/16iAHSwdYiybn0YqEByO_-pHoWRxsmQ9I/view?usp=sharing" target="_blank">
+                Resume: </a> </h3>
+              <p>
+                Here is my resume, revised and updated for CSE300.
+              </p>
+              </div>
+          </div>
 
-      </section>
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+              <div class="resume-content mr-auto">
+                <h3 class="mb-0"> <a href="https://docs.google.com/document/d/1KJqJozeRIQppwEff8UApgx_NPQd-LrIqxfRSSF-7DHU/edit?usp=sharing" target="_blank">
+                  User Manual: </a> </h3>
+                <p>
+                  The following piece is a user manual that describes
+                  how to set up a git repository using github.com on a Mac. It is intended for users
+                  with limited git and command line experience.
+                </p>
+                </div>
+            </div>
 
-      <hr class="m-0">
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+              <div class="resume-content mr-auto">
+                <h3 class="mb-0"> <a href="https://docs.google.com/document/d/1P9uGVeHRBmsYN8RXsuCn4FN8F4XvzTWlNh7NNs1SXJs/edit?usp=sharing" target="_blank">
+                  News Release: </a> </h3>
+                <p>
+                  This is a news release for the Nutrislice mobile app which was
+                  recently introduced by Campus Dining at Stony Brook University. It is intended for SBU students.
+                </p>
+                </div>
+            </div>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="technical-writing">
-        <div class="my-auto">
-          <h2 class="mb-5">Technical Writing</h2>
-          <p>The following are Technical Writing samples written as courswork for CSE 300 at Stony Brook University.</p>
-            <a href="https://drive.google.com/file/d/16iAHSwdYiybn0YqEByO_-pHoWRxsmQ9I/view?usp=sharing" target="_blank">
-              Resume: </a>
-            <p>
-              Here is my resume, revised for CSE 300.
-            </p>
-
-            <a href="https://docs.google.com/document/d/1KJqJozeRIQppwEff8UApgx_NPQd-LrIqxfRSSF-7DHU/edit?usp=sharing" target="_blank">
-              User Manual: </a>
-            <p>
-              The following piece is a user manual that describes
-              how to set up a git repository using github.com on a Mac. It is intended for users
-              with limited git and command line experience.
-            </p>
-
-            <a href="https://docs.google.com/document/d/1P9uGVeHRBmsYN8RXsuCn4FN8F4XvzTWlNh7NNs1SXJs/edit?usp=sharing" target="_blank">
-              News Release: </a>
-            <p>
-              This is a news release for the Nutrislice mobile app which was
-              recently introduced by Campus Dining at Stony Brook University. It is intended for SBU students.
-            </p>
-
-            <a href="https://docs.google.com/presentation/d/1VvBpuHLIFV1sAyQZTeuPv8uDwftK1j6nnDZn3qBGJrI/edit?usp=sharing" target="_blank">
-              Collaborative Problem Solving Project: </a>
-            <p>
-              These are slides for a presentation of the StonyCommunity.com project, a forum that would allow a
-              convenient communication platform for SBU students to find off campus housing, textbooks or other items
-              to buy and general advice.
-            </p>
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+              <div class="resume-content mr-auto">
+                <h3 class="mb-0"> <a href="https://docs.google.com/presentation/d/1VvBpuHLIFV1sAyQZTeuPv8uDwftK1j6nnDZn3qBGJrI/edit?usp=sharing" target="_blank">
+                  Collaborative Problem Solving Project: </a> </h3>
+                <p>
+                  These are slides for a presentation of the StonyCommunity.com project, a forum that would allow a
+                  convenient communication platform for SBU students to find off campus housing, textbooks or other items
+                  to buy and general advice.
+                </p>
+                </div>
+            </div>
 
         </div>
       </section>
@@ -267,24 +348,26 @@
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
         <div class="my-auto">
-          <h2 class="mb-5">Awards &amp; Certifications</h2>
+          <h2 class="mb-5">Awards</h2>
           <ul class="fa-ul mb-0">
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
-              Dean's List: Fall 2015, Fall 2016 - Spring 2018</li>
+              <p class="lead">Dean's List: Fall 2015, Fall 2016 - Spring 2018</p></li>
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
-              Stony Brook University: Presidential Scholarship</li>
+              <p class="lead">Stony Brook University: Presidential Scholarship</p></li>
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
-              <p> Hack@Cewit 2018: 2<sup>nd</sup> Best Use of Cisco's AP's and
+              <p class="lead"> Hack@Cewit 2018: 2<sup>nd</sup> Best Use of Cisco's AP's and
                  Most Innovative Hack for "Stash Shack"</p>
 
             </li>
           </ul>
         </div>
       </section>
-
+      <section class="p-3 p-lg-5 d-flex flex-column" id="footer">
+          Template courtesy of <a href="https://github.com/BlackrockDigital/startbootstrap-resume" target="_blank"> BlackrockDigital </a>
+      </section>
     </div>
 
     <!-- Bootstrap core JavaScript -->
